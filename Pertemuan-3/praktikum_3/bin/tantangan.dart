@@ -6,7 +6,7 @@ void main() {
   List<int> sksSmt = List.filled(14, 0);
   List<List<String>> nilaihuruf = List.generate(50, (_) => List.filled(30, ''));
   List<List<String>> matkul = List.generate(50, (_) => List.filled(50, ''));
-  var mk;
+  // var mk;
   List<double> nr = List.filled(14, 0);
   double ipk, totalNr = 0;
 
@@ -36,7 +36,7 @@ void main() {
           matkul[i][j] = stdin.readLineSync()!;
           stdout.write("Masukkan jumlah sks matkul: ");
           sks[i][j] = int.parse(stdin.readLineSync()!);
-          stdout.write("Masukkan nilai matkul: ");
+          stdout.write("Masukkan nilai matkul (A/B/C/D/E): ");
           nilaihuruf[i][j] = stdin.readLineSync()!;
           print("--------------------------------------------");
 
