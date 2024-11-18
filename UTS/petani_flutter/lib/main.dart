@@ -11,6 +11,7 @@ class PertanianApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aplikasi Pertanian',
       theme: ThemeData(primarySwatch: Colors.green),
+
       home: LoginPage(), // Halaman login sebagai halaman awal
     );
   }
